@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: gray;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+ 
+h2.titulo span{
+    color: gray;
+}
+ button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px rgb(146, 144, 144);
+    transform: scale(1.05);
+}
+header{
+    padding: 40px 4%;
+
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color:white ;
+    transform: scale(1.05);
+}
+
+
+header nav ul{
+    list-style-type: none;
+
+}
+
+header nav ul li{
+    display:inline-block ;
+    padding: 0 30px;
+}
+
+section.topo-de-site{
+    padding: 40px 4%;
+}
+
+section.topo-de-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.img-topo-site{
+    border: #5c5c5c;
+    border-radius: 50%;
+}
+
+.topo-de-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+.topo-de-site h1 span{
+    color: black;
+    font-size: 84;
+}
+
+.topo-de-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+}
+section.especialidades{
+    padding: 180px 4%;
+}
+section .especialidades .flex{
+    gap: 60px;
+    padding-top: 60px;
+}
+
+.especialidades .especialidades-box{
+    color: #fff;
+    padding: 60px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    margin-top: 45px;
+    margin-left: 90px;
+    transition: .2s;    
+}
+.especialidades .especialidades-box a{
+    text-decoration: none;
+    color: #fff;
+
+} 
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffffb7;
+
+}
+.especialidades .especialidades-box i{
+    font-size: 58px;
+    color: gray;
+}
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+section.sobre{
+    padding: 120px 4%; 
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+
+}
+
+.sobre .txt-sobre{
+    color:#fff;
+}
+
+.sobre.txt-sobre h2{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+     color: gray;
+     display: block;
+}
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #c8a2c8;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .2s;
+}
+.sobre.img-sobre{
+   
+    border-radius:50%;
+}
+
+section.portifolio{
+    padding: 120px 4%;
+    box-shadow: 0 0 40px 10px #ffffff0a;
+}
+section.portifolio .flex{
+    gap: 80px;
+    padding-top: 30px;
+
+}
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: gray;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 4s;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.img-port:hover{
+    background-position: 100% 100%;
+}
+section.forms{
+    padding: 100px 4%;
+}
+form{
+    
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(53, 48, 48, 0.959);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+form input::placeholder{
+    color: #c8a2c8;
+}
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+form .btn-enviar input{
+    width: 120px;
+    background-color: #c8a2c8;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}   
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 20px #ffffff77;
+}
+footer .flex{
+    justify-content: space-between;
+}
+footer .line-footer{
+        padding: 20px 0;
+}
+footer .line-footer p i{
+    color: #c8a2c8;
+    font-size: 22px;
+}
+footer .line-footer p a{
+    color: #fff;
+    text-decoration: none;
+}
+.borda{
+    border-top: 2px solid #c8a2c8;
+}
